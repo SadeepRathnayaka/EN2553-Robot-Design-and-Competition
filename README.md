@@ -8,7 +8,7 @@ This repository contains code and documentation for this robot designed for a se
 
 ### Task 1: Line Following
 
-The robot excels at tracking a white line on a black surface, handling both straight and curved paths with precision. IR sensors have been used to track the white line.
+The robot excels at tracking a white line on a black surface, handling both straight and curved paths with precision. IR sensors have been used to track the white line using PID.
 
 ### Task 2: Segmented Wall Following
 
@@ -22,7 +22,7 @@ After mastering wall-following, the robot faces the colored dotted line challeng
 
 In this challenge, the robot becomes a black rook in a chess game. Its mission is to deliver checkmate in just one move and unlock the secret chamber door. The robot starts on the a7 square, parallel to the rows of the chessboard. It must select the black rook on the a7 square and find the checkmate move, using no prior knowledge of the game's position.
 
-Once the robot identifies the checkmate square, it places the rook, opens the chamber door, and collects two boxes from inside. The red carpet area remains off-limits until checkmate is achieved. Afterward, the robot is free to navigate the entire chessboard without colliding with other pieces.
+Once the robot identifies the checkmating square, it places the rook, opens the chamber door, and collects two boxes from inside. The red carpet area remains off-limits until checkmate is achieved. Afterward, the robot is free to navigate the entire chessboard without colliding with other pieces.
 
 Explore this repository to uncover the robot's journey through these exciting challenges!
 
