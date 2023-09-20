@@ -1,5 +1,7 @@
 ## Robot Challenge README
 
+## Virtual Robot
+
 ### Overview
 
 This repository contains code and documentation for this robot designed for a series of challenging tasks. The robot showcases its capabilities in the following tasks:
@@ -23,3 +25,23 @@ In this challenge, the robot becomes a black rook in a chess game. Its mission i
 Once the robot identifies the checkmate square, it places the rook, opens the chamber door, and collects two boxes from inside. The red carpet area remains off-limits until checkmate is achieved. Afterward, the robot is free to navigate the entire chessboard without colliding with other pieces.
 
 Explore this repository to uncover the robot's journey through these exciting challenges!
+
+## Physical Robot
+
+### Task 1: Line Maze
+
+### Exploration stage
+
+The robot starts at the white starting square and must navigate through the maze, making only 90-degree turns. The exploration stage concludes when the robot reaches the white checkpoint square on the opposite side of the maze. No loops are present within the maze.
+
+### Speeding Stage
+
+After exploring the maze, the robot's next task is to calculate the shortest path using the collected data and make its way back to the starting square from the checkpoint. The robot's performance in this stage will be evaluated based on the speed at which it returns to the starting square.
+
+## Curved Wall
+
+The robot's next challenge is to follow a curved wall to the left without crossing a red line. The wall runs parallel to the maze's entry point and leads to a blind box entrance at its end. The robot must successfully enter the blind box while avoiding penalties for crossing the red line.
+
+## Blind Box
+
+Inside the blind box, the robot will encounter three openings: the entrance, a wrong exit, and the correct exit. To successfully complete this challenge, the robot must exit through the correct exit, identified by a line on the floor.
