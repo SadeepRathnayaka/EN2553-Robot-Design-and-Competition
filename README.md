@@ -11,11 +11,6 @@ This repository contains code and documentation for this robot designed for a se
 The robot excels at tracking a white line on a black surface, handling both straight and curved paths with precision. IR sensors have been used to track the white line using PID.
 
 
-
-https://github.com/SadeepRathnayaka/EN2553-Robot-Design-and-Competition/assets/129789427/e01cf555-d721-411e-babc-905401e2242f
-
-
-
 ### Task 2: Segmented Wall Following
 
 The robot demonstrates its agility by following segmented walls, whether straight, curved, or a combination of both. Ultrasonic sensors have been used to achieve this task.
