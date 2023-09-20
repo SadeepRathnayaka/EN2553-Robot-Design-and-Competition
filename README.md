@@ -38,10 +38,10 @@ The robot starts at the white starting square and must navigate through the maze
 
 After exploring the maze, the robot's next task is to calculate the shortest path using the collected data and make its way back to the starting square from the checkpoint. The robot's performance in this stage will be evaluated based on the speed at which it returns to the starting square.
 
-## Curved Wall
+### Curved Wall
 
 The robot's next challenge is to follow a curved wall to the left without crossing a red line. The wall runs parallel to the maze's entry point and leads to a blind box entrance at its end. The robot must successfully enter the blind box while avoiding penalties for crossing the red line.
 
-## Blind Box
+### Blind Box
 
 Inside the blind box, the robot will encounter three openings: the entrance, a wrong exit, and the correct exit. To successfully complete this challenge, the robot must exit through the correct exit, identified by a line on the floor.
