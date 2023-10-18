@@ -27,6 +27,10 @@ Once the robot identifies the checkmating square, it places the rook, opens the 
 
 Explore this repository to uncover the robot's journey through these exciting challenges!
 
+
+https://github.com/SadeepRathnayaka/EN2553-Robot-Design-and-Competition/assets/129789427/f1e5a619-60f5-4004-a625-5d851b1317c8
+
+
 ## Physical Robot
 
 ### Task 1: Line Maze
